@@ -24,3 +24,54 @@
     font-size: 25px;
     max-width: 750px;
 }
+
+.about {
+    margin-bottom: 60px;
+}
+
+.about__wrap {
+    display: flex;
+}
+
+// .about__item {
+//     display: flex;
+//     align-items: flex-start;
+// }
+
+.about__text {
+    font-size: 35px;
+    display: block;
+}
+
+.about__wrap svg {
+    fill: #89bd3f;
+    display: block;
+    float: right;
+}
+
+.about__item {
+    padding: 50px 5px 0 30px;
+    width: 306px;
+    border-right: 1px solid #ccc;
+
+    &:last-child {
+       border: none; 
+    }
+}
+
+.descr-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descr__img {
+    
+    width: 480px;
+
+}
+
+.descr__img img {
+    
+    width: 100%;
+
+}
