@@ -1,1 +1,17 @@
 // #89bd3f
+
+.header {
+  background-color: #89bd3f; 
+  padding: 30px; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu-btn, .people-link {
+    background: transparent;
+    margin-left: 20px;
+}
+
+.menu-icon, .people-icon {
+    fill: #fff;
+}

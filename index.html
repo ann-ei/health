@@ -11,6 +11,47 @@
     <title>Main page</title>
 </head>
 <body>
-    <header></header>
+    <header class="header">
+        <button
+          type="button"
+          class="menu-btn menu-button--open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            class="menu-icon"
+            width="32"
+            height="32"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use href="./img/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+
+        <a href="#" class="people-link">
+            <svg
+            class="people-icon"
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use href="./img/sprite.svg#icon-people"></use>
+          </svg>
+        </a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+            <div class="hero__title-wrap">
+                <h1 class="hero__title">Заглавие</h1>
+            </div>
+
+            <div class="hero__text-wrap">
+                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis fringilla nisi vitae congue. Nunc congue tristique enim, eu tempor elit mollis eget. Donec suscipit condimentum finibus. Quisque in gravida mauris, at vehicula diam. Donec sagittis ut sem sed cursus. Nam nec dolor mattis, ullamcorper dui nec, bibendum sapien.</p>
+            </div>
+        </div>
+        </section>
+    </main>
 </body>
 </html>
