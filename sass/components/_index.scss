@@ -66,7 +66,8 @@
 
 .descr__img {
     
-    width: 480px;
+    min-width: 480px;
+    margin-right: 40px;
 
 }
 
@@ -74,4 +75,35 @@
     
     width: 100%;
 
+}
+.descr__text {
+    font-size: 20px;
+    color: #504e4e;
+}
+
+.footer {
+    background-color: #05172e;
+}
+.footer .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: flex-end;
+}
+.footer-copyrigth{
+    color: #fff;
+    margin-right: 400px;
+}
+.footer-copyrigth a {
+    color: #fff;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-icon {
+    fill: #fff;
+}
+
+.footer-social a {
+    color: #fff;
 }
