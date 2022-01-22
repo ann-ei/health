@@ -532,15 +532,15 @@ body .invisible-heading {
 }
 
 .menu-close__icon {
-  fill: getColor("secondaryText");
+
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-close:hover .menu-close__icon,
+/*.menu-close:hover .menu-close__icon,
 .menu-close:focus .menu-close__icon {
   fill: getColor("accent");
-}
+}*/
 
 .menu-button {
   display: -webkit-box;
@@ -567,18 +567,16 @@ body .invisible-heading {
   border-radius: 22px;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: getColor("lightbuttonColor");
-  color: getColor("accent");
+
 }
 
-.menu-button:hover, .menu-button:focus {
+/*.menu-button:hover, .menu-button:focus {
   background-color: getColor("lightbuttonHoverColor");
-}
+}*/
 
 .menu-button__icon {
   margin-left: 16px;
-  fill: getColor("accent");
-  stroke: getColor("accent");
+
 }
 
 .mobile-menu__navigation li a {
