@@ -20,14 +20,6 @@ Use a better box model (opinionated).
 */
 html {
   line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
-  /* 3 */
 }
 
 /*
@@ -68,8 +60,7 @@ Text-level semantics
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 abbr[title] {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline;
 }
 
 /**
@@ -88,7 +79,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -272,7 +264,7 @@ body * {
 }
 
 body body {
-  margin: 0px;
+  margin: 0;
 }
 
 body body.modal-open {
@@ -296,8 +288,8 @@ body li {
 }
 
 body ul {
-  margin: 0px;
-  padding-left: 0px;
+  margin: 0;
+  padding-left: 0;
 }
 
 body button {
@@ -306,10 +298,10 @@ body button {
 
 body .container {
   position: relative;
-  margin: 0px auto;
+  margin: 0 auto;
   width: 100%;
   max-width: 480px;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -445,7 +437,9 @@ body .invisible-heading {
 
 .footer {
   background-color: #05172e;
+
 }
+
 
 .footer .container {
   padding-top: 60px;
@@ -478,3 +472,22 @@ body .invisible-heading {
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
+
+.webinars__hero {
+  margin-bottom: 120px;
+}
+.webinar__list-img {
+  min-width: 450px;
+  margin-right: 40px;
+}
+.webinar__list-item {
+  display: flex;
+  margin-bottom: 55px;
+}
+.webinar__title {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.webinar__text {
+  font-size: 20px;
+}
