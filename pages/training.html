@@ -12,7 +12,7 @@
 </head>
 <body>
 <header class="header">
-    <div class="container">
+    <div class="container header-container">
 
 
         <button
@@ -26,30 +26,43 @@
                     width="32"
                     height="32"
             >
-                <use href="./img/sprite.svg#icon-menu"></use>
+                <use href="../img/sprite.svg#icon-menu"></use>
             </svg>
         </button>
 
         <div class="menu-container js-menu-container" id="mobile-menu">
             <button class="menu-close js-close-menu">
-                <svg class="menu-close__icon" width="40" height="40">
-                    <use href="./images/mobile-close.svg#icon-close"></use>
+                <svg class="menu-close__icon" width="20" height="20">
+                    <use href="../img/close.svg#icon-close"></use>
                 </svg>
             </button>
 
             <div class="mobile-menu">
                 <ul class="mobile-menu__navigation">
                     <li>
-                        <a href="./pages/vebinars.html">Вебинары</a>
+                        <svg class="mobile-menu__icon" width="20" height="20">
+                            <use href="../img/sprite.svg#icon-monitor"></use>
+                        </svg>
+                        <a href="vebinars.html">Вебинары</a>
                     </li>
                     <li>
-                        <a href="./pages/training.html">Программа тренировок</a>
+                        <svg class="mobile-menu__icon" width="20" height="20">
+                            <use href="../img/sprite.svg#icon-dumbbell-gym"></use>
+                        </svg>
+                        <a href="training.html">Программа тренировок</a>
                     </li>
                     <li>
-                        <a href="./pages/bzhu.html">БЖУ</a>
+                        <svg class="mobile-menu__icon" width="20" height="20">
+                            <use href="../img/sprite.svg#icon-farm"></use>
+                        </svg>
+                        <a href="bzhu.html">БЖУ</a>
                     </li>
                     <li>
-                        <a href="./pages/support.html">Обратная связь</a>
+                        <svg class="mobile-menu__icon" width="20" height="20">
+                            <use href="../img/sprite.svg#icon-phone-call"></use>
+                        </svg>
+
+                        <a href="support.html">Обратная связь</a>
                     </li>
                 </ul>
 
@@ -62,7 +75,7 @@
                     width="40"
                     height="40"
             >
-                <use href="./img/sprite.svg#icon-people"></use>
+                <use href="../img/sprite.svg#icon-people"></use>
             </svg>
         </a>
     </div>
@@ -74,6 +87,7 @@
             <img src="../img/training.jpg" alt="">
         </div>
     </section>
+
 
     <section class="webinar__list-wrap">
         <div class="container">
