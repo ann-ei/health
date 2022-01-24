@@ -1,13 +1,13 @@
 $(document).ready(function(){
     $('.slider').slick({
-        arrows:true,
-        dots:false,
+        arrows:false,
+        dots:true,
         slidesToShow:3,
-        autoplay:false,
+        autoplay:true,
         speed: 500,
         responsive: [
             {
-                breakpoint: 1023,
+                breakpoint: 1279,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -21,6 +21,8 @@ $(document).ready(function(){
                 }
             }
         ]
+
+
 
     });
 });
